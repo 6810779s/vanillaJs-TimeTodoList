@@ -3,4 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */

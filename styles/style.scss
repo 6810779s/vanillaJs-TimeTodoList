@@ -4,3 +4,11 @@
   box-sizing: border-box;
 }
 
+.form,
+.greetings{
+  display: none;
+}
+
+.showing{
+  display: block;
+}

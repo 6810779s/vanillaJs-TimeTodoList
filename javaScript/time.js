@@ -1,8 +1,6 @@
 const time = document.querySelector(".js-clock"),
   clockTitle = time.querySelector("h1");
 
-console.log(time);
-// setInterval(() => {}, 1000);
 function getTime() {
   const date = new Date();
   const minutes = date.getMinutes();
