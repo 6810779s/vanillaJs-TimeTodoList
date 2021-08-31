@@ -11,7 +11,6 @@ function handleSubmit(e) {
   e.preventDefault();
   const currentValue = input.value;
   paintGreeting(currentValue);
-  input.value = "";
 }
 
 function askForName() {
