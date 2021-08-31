@@ -22,7 +22,7 @@ function paintTodo(text) {
   const delBtn = document.createElement("button");
   const span = document.createElement("span");
   const newId = toDos.length + 1;
-  delBtn.innerText = "❌";
+  delBtn.innerText = "X";
   delBtn.addEventListener("click", delTodo);
   span.innerText = text;
   li.appendChild(delBtn);
