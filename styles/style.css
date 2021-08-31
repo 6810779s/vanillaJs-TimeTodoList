@@ -56,9 +56,9 @@ li {
 
 .js-toDoList li button {
   font-size: 1.3rem;
-  color: red;
+  color: white;
   background: none;
-  border: 0.5px solid #d3cece;
+  border: none;
   text-align: center;
   padding: 1px;
   margin: 0 20px;
