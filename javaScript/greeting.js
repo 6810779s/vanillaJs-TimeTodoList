@@ -33,8 +33,6 @@ function loadName() {
     paintGreeting(currentUser);
   }
 }
-// localStorage.setItem("eunhee", "1234");
-// let a = localStorage.getItem("eunhee");
 
 function init() {
   loadName();
