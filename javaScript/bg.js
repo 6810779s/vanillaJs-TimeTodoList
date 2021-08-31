@@ -9,6 +9,8 @@ function paintImage(imgNumber) {
   const img = new Image();
   img.src = `./img/bg${imgNumber + 1}.jpg`;
   img.classList.add("bgImg");
+  img.style.backgroundSize = "cover";
+  img.style.background = "top no-repeat";
   body.appendChild(img);
 
   // img.addEventListener("loadend", handleImgLoad);
